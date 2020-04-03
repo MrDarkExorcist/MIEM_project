@@ -1,13 +1,11 @@
 #! /usr/bin/env python
 #-*- coding: utf-8 -*-
-#project: home-smart-home.ru
+#project: MIEM
 import subprocess
 import time
 from datetime import date
 import os.path
-from pyudmx import pyudmx
-import json
-import logging
+
 
 l_ch = []
 l_val = []
